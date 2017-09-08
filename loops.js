@@ -16,7 +16,7 @@ function whileLoop(n) {
     console.log(--countdown);
   }
   return 'done';
-};
+}
 
 function doWhileLoop(array) {
   function maybeTrue() {
@@ -24,8 +24,8 @@ function doWhileLoop(array) {
   }
 
   do {
-    array = array.slice(1)
-  } while (array.length > 0 && maybeTrue())
+    array = array.slice(1);
+  } while (array.length > 0 && maybeTrue());
 
-  return array
+  return array;
 };
