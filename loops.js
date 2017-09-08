@@ -27,4 +27,6 @@ function doWhileLoop(array) {
   do {
     //loop body
   } while (array.length > 0 && maybeTrue());
+
+  return array;
 }
